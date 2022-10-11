@@ -31,9 +31,11 @@ sudo /usr/sbin/plymouth-set-default-theme --rebuild-initrd Rosa-EE
 
 ## Previewing theme
 
-An example of running the theme in VirtualBox machine (open `/usr/share/plymouth/themes/rosa-logo-bgrt/preview.gif` file after installation):
+An example of running the theme in VirtualBox EFI machine (open `/usr/share/plymouth/themes/rosa-logo-bgrt/preview.gif` file after installation):
 
 ![til](./preview.gif)
+
+NOTE: No vendor logotip in BIOS mode.
 
 To preview the theme using Plymouth execute the following commands as **root** at once (preferably in another TTY). If you just run `plymouth --show-splash` in your current TTY, where your desktop environment is running, you may need to login in to another TTY and terminate `plymouth` process manually:
 
